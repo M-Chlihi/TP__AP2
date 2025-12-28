@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+
+<form class="form-container">
+
+    <fieldset>
+        <legend>Informations personnelles</legend>
+
+        <label>Nom :</label>
+        <input type="text" placeholder="Entrez votre nom">
+
+        <label>Prénom :</label>
+        <input type="text" placeholder="Entrez votre prénom">
+
+        <label>Date de naissance :</label>
+        <input type="date">
+
+        <fieldset class="sub-fieldset">
+            <legend>Lieu de naissance</legend>
+            <label><input type="radio" name="lieu"> Maroc</label>
+            <label><input type="radio" name="lieu"> Étranger</label>
+        </fieldset>
+        
+
+        <label>Adresse postale :</label>
+        <input type="text" placeholder="Entrez votre adresse postale">
+
+        <label>Code postal :</label>
+        <input type="number" placeholder="Ex : 90000">
+
+        <label>Email :</label>
+        <input type="email" placeholder="exemple@email.com">
+
+        <label>Page personnelle :</label>
+        <input type="url" placeholder="https://www.google.com">
+
+        <label>Téléphone portable :</label>
+        <input type="tel" placeholder="06 00 00 00 00">
+
+        <label>Semestre :</label>
+        <select>
+            <option>-- Choisir un semestre --</option>
+            <option>S1</option>
+            <option>S2</option>
+        </select>
+
+        <label>Niveau en HTML :</label>
+        <input type="range">
+
+        <fieldset class="sub-fieldset">
+            <legend>Connaissances</legend>
+            <label><input type="checkbox"> HTML</label>
+            <label><input type="checkbox"> CSS</label>
+            <label><input type="checkbox"> JavaScript</label>
+        </fieldset>
+
+        <button type="submit">Envoyer</button>
+
+    </fieldset>
+
+</form>
+<article>chlihi</article>
+<FOOter>By M.A.H.Y</FOOter>
+</body>
+</html>
